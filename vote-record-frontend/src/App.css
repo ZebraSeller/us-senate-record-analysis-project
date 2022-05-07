@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  font-family: outfit;
+  height: auto;
+}
+
+button {
+  font-family: outfit;
+  display: inline-flex;
+  margin: 8px;
+  padding: 4px;
+  font-size: 24px;
+  line-height: 24px;
+  width: fit-content;
+  height: fit-content;
+  background-color: deepskyblue;
+  color:white;
+  transition-duration: 0.2s;
+  text-decoration: none;
+  padding: auto;
+  border-radius: 8px;
+  border: 2px solid deepskyblue;
+}
+button:hover {
+  margin: 8px;
+  padding: 4px;
+  font-size: 24px;
+  line-height: 24px;
+  border: 2px solid deepskyblue;
+  background-color: white;
+  color: deepskyblue;
+}
+
+input {
+  border: 2px solid deepskyblue;
+  background-color: white;
+  border-radius: 8px;
+  padding-left: 8px;
+  font-family: outfit;
+  font-size: 24px;
+  line-height: 24px;
+}
